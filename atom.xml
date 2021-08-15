@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://ShamProfessor.github.io</id>
+    <id>https://shamprofessor.github.io/Gridea/</id>
     <title>Gridea</title>
-    <updated>2021-08-15T13:30:33.022Z</updated>
+    <updated>2021-08-15T13:32:21.023Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://ShamProfessor.github.io"/>
-    <link rel="self" href="https://ShamProfessor.github.io/atom.xml"/>
+    <link rel="alternate" href="https://shamprofessor.github.io/Gridea/"/>
+    <link rel="self" href="https://shamprofessor.github.io/Gridea/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://ShamProfessor.github.io/images/avatar.png</logo>
-    <icon>https://ShamProfessor.github.io/favicon.ico</icon>
+    <logo>https://shamprofessor.github.io/Gridea/images/avatar.png</logo>
+    <icon>https://shamprofessor.github.io/Gridea/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://ShamProfessor.github.io/post/hello-gridea/</id>
-        <link href="https://ShamProfessor.github.io/post/hello-gridea/">
+        <id>https://shamprofessor.github.io/Gridea/post/hello-gridea/</id>
+        <link href="https://shamprofessor.github.io/Gridea/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
