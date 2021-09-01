@@ -1,132 +1,128 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
+    <meta charset="utf-8" >
 
 <title>First blood | Owen&#39;s club</title>
-<meta name="description" content="A web developer and a rapper">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://shamprofessor.github.io/Gridea/favicon.ico?v=1630489165462">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://shamprofessor.github.io/Gridea/favicon.ico?v=1630489235728">
 <link rel="stylesheet" href="https://shamprofessor.github.io/Gridea/styles/main.css">
 
 
 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
+    <meta name="description" content="
+
+
+..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://shamprofessor.github.io/Gridea">
-        <img class="avatar" src="https://shamprofessor.github.io/Gridea/images/avatar.png?v=1630489165462" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://shamprofessor.github.io/Gridea">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://shamprofessor.github.io/Gridea">
+        <img src="https://shamprofessor.github.io/Gridea/images/avatar.png?v=1630489235728" class="site-logo">
         <h1 class="site-title">Owen&#39;s club</h1>
       </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
+    <div>
       
         
-          <a href="/" class="menu purple-link">
+          <a href="/" class="site-nav">
             首页
           </a>
         
       
         
-          <a href="/Gridea/js" class="menu purple-link">
+          <a href="/Gridea/js" class="site-nav">
             js
           </a>
         
       
         
-          <a href="/Gridea/react" class="menu purple-link">
+          <a href="/Gridea/react" class="site-nav">
             react
           </a>
         
       
         
-          <a href="/Gridea/webpack" class="menu purple-link">
+          <a href="/Gridea/webpack" class="site-nav">
             webpack
           </a>
         
       
         
-          <a href="/Gridea/typescirpt" class="menu purple-link">
+          <a href="/Gridea/typescirpt" class="site-nav">
             typescirpt
           </a>
         
       
     </div>
   </div>
-</transition>
-
-
-      <div class="content-container">
-        <div class="post-detail">
-          
-          <h2 class="post-title">First blood</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2021-08-15</span>
-            
-          </div>
-          <div class="post-content">
-            <!-- more -->
-<!-- more -->
-<figure data-type="image" tabindex="1"><img src="https://shamprofessor.github.io/Gridea/post-images/1629038619816.jpeg" alt="" loading="lazy"></figure>
-
-          </div>
-        </div>
-
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
         
-      </div>
-
       
-
-      <div class="site-footer">
-  <div class="slogan">A web developer and a rapper</div>
-  <div class="social-container">
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
-      
-    
+    </div>
+    <div class="site-description">
+      A web developer and a rapper
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://music.163.com/#/artist?id=36523817" target="_blank">前端开发工程师</a> | <a class="rss" href="https://shamprofessor.github.io/Gridea/atom.xml" target="_blank">RSS</a>
+    </div>
   </div>
-  Powered by <a href="https://music.163.com/#/artist?id=36523817" target="_blank">前端开发工程师</a> | <a class="rss" href="https://shamprofessor.github.io/Gridea/atom.xml" target="_blank">RSS</a>
 </div>
 
 
-    </div>
-    <script type="application/javascript">
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">First blood</h2>
+            <div class="post-date">2021-08-15</div>
+            
+            <div class="post-content" v-pre>
+              <!-- more -->
+<!-- more -->
+<figure data-type="image" tabindex="1"><img src="https://shamprofessor.github.io/Gridea/post-images/1629038619816.jpeg" alt="" loading="lazy"></figure>
 
-hljs.initHighlightingOnLoad()
+            </div>
+            
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
 
 var app = new Vue({
   el: '#app',
@@ -136,6 +132,8 @@ var app = new Vue({
 })
 
 </script>
+
+
 
 
 
